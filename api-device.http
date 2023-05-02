@@ -1,0 +1,35 @@
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/device
+
+###
+
+GET http://localhost:3000/device/645121ba8f4bbbaf3037ebc3
+
+###
+
+POST http://localhost:3000/device
+Content-Type: application/json
+
+{
+  "name": "TP011",
+  "description": "Sensor of temperature room 204 CIVT",
+  "engUnit": "ºC"
+}
+
+###
+
+DELETE http://localhost:3000/device/645121ba8f4bbbaf3037ebc3
+
+###
+
+PUT http://localhost:3000/device/64512444189e00c5f200bfa0
+Content-Type: application/json
+
+{
+  "name": "TP012",
+  "description": "Sensor of temperature room 204 CIVT",
+  "engUnit": "ºF"
+}

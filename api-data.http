@@ -1,0 +1,12 @@
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3000/data
+Content-Type: application/json
+
+{
+  "deviceId": "64512444189e00c5f200bfa0",
+  "ts": "2002-12-09T00:00:00.000Z",
+  "value": "11"
+}
