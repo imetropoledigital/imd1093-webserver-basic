@@ -6,7 +6,11 @@ POST http://localhost:3000/data
 Content-Type: application/json
 
 {
-  "deviceId": "64512444189e00c5f200bfa0",
-  "ts": "2002-12-09T00:00:00.000Z",
-  "value": "11"
+  "deviceId": "6451392993b940e0ef824490",
+  "ts": "2002-12-09T00:01:00.000Z",
+  "value": "112"
 }
+
+###
+
+GET http://localhost:3000/data
